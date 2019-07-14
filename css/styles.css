@@ -17,8 +17,8 @@ Table Of Contents:
 /*****************************************
 Colors:
 
-- Text, navbar links - white #f1f1f8
-- Buttons, bullets, icons - turquoise #00c9db
+- Text, navbar links - white #A77A57
+- Buttons, bullets, icons - turquoise #B57170
 - Navbar - navy #4633af
 - Backgrounds - dark denim #262431
 - Backgrounds - denim #2f2c3d
@@ -35,17 +35,17 @@ html {
 }
 
 body, p {
-	color: #f1f1f8;
+	color: #A77A57;
 	font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
 }
 
 .p-large {
-	color: #f1f1f8;
+	color: #A77A57;
 	font: 400 1rem/1.5rem "Open Sans", sans-serif;
 }
 
 .p-small {
-	color: #f1f1f8;
+	color: #A77A57;
 	font: 400 0.75rem/1.25rem "Open Sans", sans-serif;
 }
 
@@ -63,42 +63,42 @@ body, p {
 }
 
 h1 {
-	color: #f1f1f8;
+	color: #A77A57;
 	font: 700 2.5rem/2.875rem "Montserrat", sans-serif;
 }
 
 h2 {
-	color: #f1f1f8;
+	color: #A77A57;
 	font: 700 2.25rem/2.75rem "Montserrat", sans-serif;
 }
 
 h3 {
-	color: #f1f1f8;
+	color: #A77A57;
 	font: 700 1.75rem/2.125rem "Montserrat", sans-serif;
 }
 
 h4 {
-	color: #f1f1f8;
+	color: #A77A57;
 	font: 700 1.375rem/1.75rem "Montserrat", sans-serif;
 }
 
 h5 {
-	color: #f1f1f8;
+	color: #A77A57;
 	font: 700 1.125rem/1.625rem "Montserrat", sans-serif;
 }
 
 h6 {
-	color: #f1f1f8;
+	color: #A77A57;
 	font: 700 1rem/1.5rem "Montserrat", sans-serif;
 }
 
 a {
-	color: #f1f1f8;
+	color: #A77A57;
 	text-decoration: underline;
 }
 
 a:hover {
-	color: #f1f1f8;
+	color: #A77A57;
 	text-decoration: underline;
 }
 
@@ -121,9 +121,9 @@ a.white {
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #00c9db;
+	border: 0.125rem solid #B57170;
 	border-radius: 2rem;
-	background-color: #00c9db;
+	background-color: #B57170;
 	color: #fff;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
@@ -132,16 +132,16 @@ a.white {
 
 .btn-solid-reg:hover {
 	background-color: transparent;
-	color: #00c9db;
+	color: #B57170;
 	text-decoration: none;
 }
 
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
-	border: 0.125rem solid #00c9db;
+	border: 0.125rem solid #B57170;
 	border-radius: 2rem;
-	background-color: #00c9db;
+	background-color: #B57170;
 	color: #fff;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
@@ -150,7 +150,7 @@ a.white {
 
 .btn-solid-lg:hover {
 	background-color: transparent;
-	color: #00c9db;
+	color: #B57170;
 	text-decoration: none;
 }
 
@@ -168,17 +168,17 @@ a.white {
 .btn-outline-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #00c9db;
+	border: 0.125rem solid #B57170;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #00c9db;
+	color: #B57170;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-reg:hover {
-	background-color: #00c9db;
+	background-color: #B57170;
 	color: #fff;
 	text-decoration: none;
 }
@@ -186,17 +186,17 @@ a.white {
 .btn-outline-lg {
 	display: inline-block;
 	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
-	border: 0.125rem solid #00c9db;
+	border: 0.125rem solid #B57170;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #00c9db;
+	color: #B57170;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-lg:hover {
-	background-color: #00c9db;
+	background-color: #B57170;
 	color: #fff;
 	text-decoration: none;
 }
@@ -204,17 +204,17 @@ a.white {
 .btn-outline-sm {
 	display: inline-block;
 	padding: 1rem 1.625rem 0.875rem 1.625rem;
-	border: 0.125rem solid #00c9db;
+	border: 0.125rem solid #B57170;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #00c9db;
+	color: #B57170;
 	font: 700 0.625rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-sm:hover {
-	background-color: #00c9db;
+	background-color: #B57170;
 	color: #fff;
 	text-decoration: none;
 }
@@ -236,7 +236,7 @@ a.white {
 	position: absolute;
 	top: 0.87rem;
 	left: 1.375rem;
-	color: #f1f1f8;
+	color: #A77A57;
 	opacity: 1;
 	font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
 	cursor: text;
@@ -267,10 +267,10 @@ a.white {
 	padding-top: 1.0625rem;
 	padding-bottom: 0.0625rem;
 	padding-left: 1.3125rem;
-	border: 1px solid #9791ae;
+	border: 1px solid #DDCEB5;
 	border-radius: 0.25rem;
-	background-color: #413d52;
-	color: #f1f1f8;
+	background-color: #F7E7CE;
+	color: #A77A57;
 	font: 400 0.875rem/1.875rem "Open Sans", sans-serif;
 	transition: all 0.2s;
 	-webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
@@ -324,7 +324,7 @@ select::-ms-expand {
 	border: 1px solid #9791ae;
 	border-radius: 0.25rem;
 	background-color: #413d52;
-	color: #f1f1f8;
+	color: #A77A57;
 	font: 400 0.875rem/1.75rem "Open Sans", sans-serif;
 	transition: all 0.2s;
 }
@@ -332,14 +332,14 @@ select::-ms-expand {
 .form-control-input:focus,
 .form-control-select:focus,
 .form-control-textarea:focus {
-	border: 1px solid #f1f1f8;
+	border: 1px solid #A77A57;
 	outline: none; /* Removes blue border on focus */
 }
 
 .form-control-input:hover,
 .form-control-select:hover,
 .form-control-textarea:hover {
-	border: 1px solid #f1f1f8;
+	border: 1px solid #A77A57;
 }
 
 .checkbox {
@@ -362,9 +362,9 @@ input[type='checkbox'] {
 	display: inline-block;
 	width: 100%;
 	height: 3.125rem;
-	border: 1px solid #00c9db;
+	border: 1px solid #B57170;
 	border-radius: 1.5rem;
-	background-color: #00c9db;
+	background-color: #B57170;
 	color: #fff;
 	font: 700 0.75rem/1.75rem "Montserrat", sans-serif;
 	cursor: pointer;
@@ -373,7 +373,7 @@ input[type='checkbox'] {
 
 .form-control-submit-button:hover {
 	background-color: transparent;
-	color: #00c9db;
+	color: #B57170;
 }
 
 /* Form Success And Error Message Formatting */
@@ -383,12 +383,12 @@ input[type='checkbox'] {
 #pmsgSubmit.h3.text-center {
 	display: block;
 	margin-bottom: 0;
-	color: #f1f1f8;
+	color: #A77A57;
 	font: 400 1.125rem/1rem "Open Sans", sans-serif;
 }
 
 .help-block.with-errors .list-unstyled {
-	color: #f1f1f8;
+	color: #A77A57;
 	font-size: 0.75rem;
 	line-height: 1.125rem;
 	text-align: left;
@@ -625,15 +625,15 @@ input[type='checkbox'] {
 /*     03. Navigation     */
 /**************************/
 .navbar-custom {
-	background-color: #ddceb5;
+	background-color: #fff;
 	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
 	font: 700 0.75rem/2rem "Montserrat", sans-serif;
 	transition: all 0.2s;
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-    width: 113px;
-	height: 34px;
+    width: 125px;
+	height: 35px;
 	margin-bottom: 1px;
 	-webkit-backface-visibility: hidden;
 }
@@ -651,14 +651,14 @@ input[type='checkbox'] {
 
 .navbar-custom .nav-item .nav-link {
 	padding: 0 0.75rem 0 0.75rem;
-	color: #fff;
+	color: #A77A57;
 	text-decoration: none;
 	transition: all 0.2s ease;
 }
 
 .navbar-custom .nav-item .nav-link:hover,
 .navbar-custom .nav-item .nav-link.active {
-	color: #00c9db;
+	color: #b57170;
 }
 
 /* Dropdown Menu */
@@ -686,16 +686,16 @@ input[type='checkbox'] {
 	margin-top: 0;
 	border: none;
 	border-radius: 0.25rem;
-	background-color: #4633af;
+	background-color: #b57170;
 }
 
 .navbar-custom .dropdown-item {
-	color: #fff;
+	color: #b57170;
 	text-decoration: none;
 }
 
 .navbar-custom .dropdown-item:hover {
-	background-color: #ddceb5;
+	background-color: #b57170;
 }
 
 .navbar-custom .dropdown-item .item-text {
@@ -703,7 +703,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .dropdown-item:hover .item-text {
-	color: #00c9db;
+	color: #b57170;
 }
 
 .navbar-custom .dropdown-items-divide-hr {
@@ -711,7 +711,7 @@ input[type='checkbox'] {
 	height: 1px;
 	margin: 0.25rem auto 0.25rem auto;
 	border: none;
-	background-color: #b5bcc4;
+	background-color: #fff;
 	opacity: 0.2;
 }
 /* end of dropdown menu */
@@ -767,7 +767,7 @@ input[type='checkbox'] {
 }
 
 .header #js-rotating {
-	color: #40e0ee;
+	color: #B57170;
 }
 
 .header .p-large {
@@ -807,13 +807,13 @@ input[type='checkbox'] {
 
 .slider-1 .swiper-button-prev {
 	left: -0.5rem;
-	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23f1f1f8'%2F%3E%3C%2Fsvg%3E");
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23A77A57'%2F%3E%3C%2Fsvg%3E");
 	background-size: 1.125rem 1.75rem;
 }
 
 .slider-1 .swiper-button-next {
 	right: -0.5rem;
-	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23f1f1f8'%2F%3E%3C%2Fsvg%3E");
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23A77A57'%2F%3E%3C%2Fsvg%3E");
 	background-size: 1.125rem 1.75rem;
 }
 
@@ -847,7 +847,7 @@ input[type='checkbox'] {
 .tabs {
 	padding-top: 6.5rem;
 	padding-bottom: 4.25rem;
-	background-color: #b57170;
+	background-color: #F7E7CE;
 }
 
 .tabs h2 {
@@ -871,9 +871,9 @@ input[type='checkbox'] {
 	margin-bottom: 1rem;
 	padding: 0.5rem 1.375rem 0.25rem 1.375rem;
 	border: none;
-	border-bottom: 0.1875rem solid #f1f1f8;
+	border-bottom: 0.1875rem solid #A77A57;
 	border-radius: 0;
-	color: #f1f1f8;
+	color: #A77A57;
 	font: 700 1rem/1.75rem "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s ease;
@@ -881,9 +881,9 @@ input[type='checkbox'] {
 
 .tabs .nav-link.active,
 .tabs .nav-link:hover {
-	border-bottom: 0.1875rem solid #00c9db;
+	border-bottom: 0.1875rem solid #B57170;
 	background-color: transparent;
-	color: #00c9db;
+	color: #B57170;
 }
 
 .tabs .nav-link .fas {
@@ -913,7 +913,7 @@ input[type='checkbox'] {
 	width: 3.5rem;
 	height: 3.5rem;
 	border-radius: 50%;
-	background-color: #00c9db;
+	background-color: #B57170;
 	text-align: center;
 	vertical-align: top;
 }
@@ -1168,7 +1168,7 @@ input[type='checkbox'] {
 	margin-bottom: 1.125rem;
 	margin-left: 0;
 	border: 0;
-	background-color: #00c9db;
+	background-color: #B57170;
 	text-align: left;
 }
 
@@ -1189,7 +1189,7 @@ input[type='checkbox'] {
 .lightbox-basic table .icon-cell {
 	width: 2rem;
 	padding-right: 0.25rem;
-	color: #00c9db;
+	color: #B57170;
 	text-align: center;
 }
 
@@ -1198,12 +1198,12 @@ input[type='checkbox'] {
 	width: auto;
 	height: auto;
 	margin-left: 0.375rem;
-	color: #00c9db;
+	color: #B57170;
 	opacity: 1;
 }
 
 .lightbox-basic a.mfp-close.as-button:hover {
-	color: #f1f1f8;
+	color: #A77A57;
 }
 
 .lightbox-basic button.mfp-close.x-button {
@@ -1212,7 +1212,7 @@ input[type='checkbox'] {
 	right: -0.375rem;
 	width: 2.75rem;
 	height: 2.75rem;
-	color: #f1f1f8;
+	color: #A77A57;
 }
 
 
@@ -1308,14 +1308,14 @@ input[type='checkbox'] {
 }
 
 .counter #counter .counter-value {
-	color: #f1f1f8;
+	color: #A77A57;
 	font: 700 3.5rem/4.25rem "Montserrat", sans-serif;
 	vertical-align: middle;
 }
 
 .counter #counter .counter-info {
 	margin-bottom: 0;
-	color: #00c9db;
+	color: #B57170;
 	font: 400 0.875rem/1.25rem "Open Sans", sans-serif;
 	vertical-align: middle;
 }
@@ -1347,7 +1347,7 @@ input[type='checkbox'] {
 .form .list-unstyled .fab {
 	margin-right: 0.5rem;
 	font-size: 0.875rem;
-	color: #00c9db;
+	color: #B57170;
 }
 
 .form .list-unstyled .fa-phone {
@@ -1360,7 +1360,7 @@ input[type='checkbox'] {
 /**********************/
 .footer {
 	padding-top: 5rem;
-	background-color: #6c5243;
+	background-color: #F7E7CE;
 }
 
 .footer .footer-col {
@@ -1372,7 +1372,7 @@ input[type='checkbox'] {
 }
 
 .footer .list-unstyled .fas {
-	color: #00c9db;
+	color: #F7E7CE;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
 }
@@ -1388,21 +1388,21 @@ input[type='checkbox'] {
 }
 
 .footer .fa-stack .fa-stack-1x {
-    color: #262431;
+    color: #A77A57;
 	transition: all 0.2s ease;
 }
 
 .footer .fa-stack .fa-stack-2x {
-	color: #f1f1f8;
+	color: #fff;
 	transition: all 0.2s ease;
 }
 
 .footer .fa-stack:hover .fa-stack-1x {
-	color: #f1f1f8;
+	color: #A77A57;
 }
 
 .footer .fa-stack:hover .fa-stack-2x {
-    color: #00c9db;
+    color: #F7E7CE;
 }
 
 
@@ -1412,12 +1412,12 @@ input[type='checkbox'] {
 .copyright {
 	padding-top: 1rem;
 	padding-bottom: 0.5rem;
-	background-color: #6c5243;
+	background-color: #F7E7CE;
 	text-align: center;
 }
 
 .copyright .p-small {
-	color: #f1f1f8;
+	color: #A77A57;
 	opacity: 0.6;
 }
 
@@ -1434,7 +1434,7 @@ a.back-to-top {
 	width: 2.625rem;
 	height: 2.625rem;
 	border-radius: 1.875rem;
-	background: #00c9db url("../images/up-arrow.png") no-repeat center 47%;
+	background: #B57170 url("../images/up-arrow.png") no-repeat center 47%;
 	background-size: 1.125rem 1.125rem;
 	text-indent: -9999px;
 }
@@ -1488,7 +1488,7 @@ a:hover.back-to-top {
 }
 
 .ex-basic-2 .list-unstyled .fas {
-	color: #00c9db;
+	color: #B57170;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
 }
@@ -1555,18 +1555,18 @@ a:hover.back-to-top {
 
 	.navbar-custom .nav-item .nav-link {
 		padding: 0.25rem 0.75rem 0.25rem 0.75rem;
-		color: #fff;
+		color: #A77A57;
 	}
 
 	.navbar-custom .nav-item .nav-link:hover,
 	.navbar-custom .nav-item .nav-link.active {
-		color: #00c9db;
+		color: #B57170;
 	}
 
 	.navbar-custom.top-nav-collapse {
         padding: 0.5rem 1.5rem 0.5rem 2rem;
 		box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
-		background-color: #ddceb5;
+		background-color: #fff;
 	}
 
 	.navbar-custom.top-nav-collapse .navbar-brand.logo-text {
@@ -1574,12 +1574,12 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom.top-nav-collapse .nav-item .nav-link {
-		color: #fff;
+		color: #A77A57;
 	}
 
 	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
 	.navbar-custom.top-nav-collapse .nav-item .nav-link.active {
-		color: #00c9db;
+		color: #B57170;
 	}
 
 	.navbar-custom .dropdown-menu {
@@ -1744,7 +1744,7 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom .fa-stack-2x {
-		color: #00c9db;
+		color: #B57170;
 		transition: all 0.2s ease;
 	}
 
@@ -1758,7 +1758,7 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom .fa-stack:hover .fa-stack-1x {
-		color: #00c9db;
+		color: #B57170;
 	}
 	/* end of navigation */
 
