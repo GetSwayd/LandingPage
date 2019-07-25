@@ -265,52 +265,17 @@
     	if (event.isDefaultPrevented()) {
             // handle the invalid form...
             cformError();
-            // csubmitMSG(false, "Please fill all fields!");
+            csubmitMSG(false, "Please fill all fields!");
         } else {
             // everything looks good!
             event.preventDefault();
 
-            document.querySelector('.alert').style.display = 'block';
-
-            var today = new Date();
-            var dd = String(today.getDate()).padStart(2, '0');
-            var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-            var yyyy = today.getFullYear();
-
-            today = mm + '/' + dd + '/' + yyyy;
-
-            var Country;
-            var City;
             var email = $("#cemail").val();
             var newEmailRef = emailsRef.push();
-
-            fetch('https://extreme-ip-lookup.com/json/')
-            .then( res => res.json())
-            .then(response => {
-                newEmailRef.set({
-                  email: email,
-                  date: today,
-                  country: response.country,
-                  city: response.city
-                });
-             })
-             .catch((data, status) => {
-               console.log('Request failed');
-             })
-
-
-
-
-            // $.getJSON('https://api.ipify.org?format=json', function(data){
-            //     console.log(data.ip);
-            // });
-
-            setTimeout(function(){
-              document.querySelector('.alert').style.display = 'none';
-              document.getElementById('contactForm').reset();
-            },3000);
-
-
+            newEmailRef.set({
+              email: email
+            });
+            console.log(email);
         }
     });
 

@@ -39,6 +39,12 @@ body, p {
 	font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
 }
 
+.alert{
+  text-align: center;
+  padding: 10px;
+  display:none;
+}
+
 .p-large {
 	color: #A77A57;
 	font: 400 1rem/1.5rem "Open Sans", sans-serif;
@@ -913,15 +919,16 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header .header-content {
-		padding-top: 6rem;
+		padding-top: 9rem;
+		padding-bottom: 6rem;
 	}
 	/* end of header */
 }
 /* end of min-width width 768px */
 
 
-/* Min-width width 992px */
-@media (min-width: 992px) {
+/* Min-width width 1024x */
+@media (min-width: 1024px) {
 
 	/* General Styles */
 	.p-heading {
@@ -937,7 +944,8 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header .header-content {
-		padding-top: 6rem;
+		padding-top: 14rem;
+		padding-bottom: 10rem;
 		text-align: left;
 	}
 
@@ -946,11 +954,11 @@ a:hover.back-to-top {
 	}
 	/* end of header */
 }
-/* end of min-width width 992px */
+/* end of min-width width 1024px */
 
 
-/* Min-width width 1200px */
-@media (min-width: 1200px) {
+/* Min-width width 1440px */
+@media (min-width: 1440px) {
 
 	/* Navigation */
 	.navbar-custom {
@@ -976,6 +984,11 @@ a:hover.back-to-top {
 
 
 	/* Header */
+	.header .header-content {
+		padding-top: 10rem;
+		padding-bottom: 5rem;
+	}
+
 	.header .text-container {
 		margin-top: 6rem;
 		margin-left: 2.5rem;
@@ -986,4 +999,48 @@ a:hover.back-to-top {
 	}
 	/* end of header */
 }
-/* end of min-width width 1200px */
+/* end of min-width width 1440px */
+
+/* Min-width width 2560px */
+@media (min-width: 2560px) {
+
+	/* Navigation */
+	.navbar-custom {
+		padding: 2.125rem 5rem 2.125rem 5rem;
+	}
+
+	.navbar-custom.top-nav-collapse {
+        padding: 0.5rem 5rem 0.5rem 5rem;
+	}
+	/* end of navigation */
+
+
+	/* General Styles */
+	.p-heading {
+		width: 44%;
+	}
+
+	.p-large {
+		display: block;
+		margin-bottom: 0rem;
+	}
+	/* end of general styles */
+
+
+	/* Header */
+	.header .header-content {
+		padding-top: 16rem;
+		padding-bottom: 10rem;
+	}
+
+	.header .text-container {
+		margin-top: 6rem;
+		margin-left: 2.5rem;
+	}
+
+	.header .image-container {
+		margin-left: 3rem;
+	}
+	/* end of header */
+}
+/* end of min-width width 2560px */
