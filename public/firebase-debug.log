@@ -1,0 +1,52 @@
+[debug] [2019-07-25T03:58:35.439Z] ----------------------------------------------------------------------
+[debug] [2019-07-25T03:58:35.441Z] Command:       /usr/local/bin/node /Users/mohitkatyal/.npm-global/bin/Firebase serve
+[debug] [2019-07-25T03:58:35.441Z] CLI Version:   7.0.2
+[debug] [2019-07-25T03:58:35.441Z] Platform:      darwin
+[debug] [2019-07-25T03:58:35.441Z] Node Version:  v10.16.0
+[debug] [2019-07-25T03:58:35.442Z] Time:          Wed Jul 24 2019 22:58:35 GMT-0500 (Central Daylight Time)
+[debug] [2019-07-25T03:58:35.442Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-25T03:58:35.450Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-25T03:58:35.451Z] > authorizing via signed-in user
+[debug] [2019-07-25T03:58:35.451Z] [iam] checking project landing-page-8b3d1 for permissions ["firebase.projects.get"]
+[debug] [2019-07-25T03:58:35.452Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/landing-page-8b3d1:testIamPermissions  
+
+[debug] [2019-07-25T03:58:36.508Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-25T03:58:36.509Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/landing-page-8b3d1  
+ 
+[debug] [2019-07-25T03:58:37.417Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/mohitkatyal/Desktop/LandingPage'...
+[info] 
+[debug] [2019-07-25T03:58:37.419Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/745784794520/clients/_:getWebAppConfig  
+ 
+[debug] [2019-07-25T03:58:38.133Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[info] Shutting down...
+[info] Shutting down...
+[debug] [2019-07-25T04:00:43.379Z] ----------------------------------------------------------------------
+[debug] [2019-07-25T04:00:43.381Z] Command:       /usr/local/bin/node /Users/mohitkatyal/.npm-global/bin/Firebase serve
+[debug] [2019-07-25T04:00:43.381Z] CLI Version:   7.0.2
+[debug] [2019-07-25T04:00:43.381Z] Platform:      darwin
+[debug] [2019-07-25T04:00:43.381Z] Node Version:  v10.16.0
+[debug] [2019-07-25T04:00:43.382Z] Time:          Wed Jul 24 2019 23:00:43 GMT-0500 (Central Daylight Time)
+[debug] [2019-07-25T04:00:43.382Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-25T04:00:43.390Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-25T04:00:43.391Z] > authorizing via signed-in user
+[debug] [2019-07-25T04:00:43.391Z] [iam] checking project landing-page-8b3d1 for permissions ["firebase.projects.get"]
+[debug] [2019-07-25T04:00:43.392Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/landing-page-8b3d1:testIamPermissions  
+
+[debug] [2019-07-25T04:00:44.479Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-25T04:00:44.481Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/landing-page-8b3d1  
+ 
+[debug] [2019-07-25T04:00:45.519Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/mohitkatyal/Desktop/LandingPage'...
+[info] 
+[debug] [2019-07-25T04:00:45.521Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/745784794520/clients/_:getWebAppConfig  
+ 
+[debug] [2019-07-25T04:00:46.136Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
