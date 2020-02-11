@@ -49,6 +49,7 @@ body, p {
 	color: #A77A57;
 	font: 400 1rem/1.5rem "Open Sans", sans-serif;
 	display: inline;
+	font-size: 18px;
 }
 
 .header .text-container {
@@ -806,8 +807,13 @@ input[type='checkbox'] {
 }
 
 .copyright .p-small {
-	color: #A77A57;
+	color: rgb(184, 131, 91);
 	opacity: 0.6;
+	font-weight: bold;
+}
+
+.copyright a {
+	color: rgb(121, 87, 62);
 }
 
 
